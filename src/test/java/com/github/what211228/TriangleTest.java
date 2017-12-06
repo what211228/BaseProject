@@ -11,7 +11,6 @@ public class TriangleTest {
         Triangle tri = new Triangle(5,10,5);
 
         String result = tri.getType();
-
         Assert.assertEquals("不是三角形",result);
     }
 
